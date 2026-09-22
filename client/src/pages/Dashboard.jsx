@@ -23,7 +23,7 @@ function Dashboard() {
 
 const API_URL =
   window.location.hostname === "localhost"
-    ? "http://localhost:5000"
+    ? "https://ai-capsule-why1.onrender.com"
     : "";
 
   // READ
