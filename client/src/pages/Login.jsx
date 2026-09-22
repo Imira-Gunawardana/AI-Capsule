@@ -2,7 +2,7 @@ function Login() {
   const handleLogin = () => {
     const apiUrl =
       window.location.hostname === "localhost"
-        ? "http://localhost:5000"
+        ? "https://ai-capsule-why1.onrender.com"
         : "";
 
     window.location.href = `${apiUrl}/auth/github`;
